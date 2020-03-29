@@ -4,6 +4,10 @@ body {
 
 h1 {
   color: #0f4c75;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: 50;
+
 }
 
 h3 {
@@ -16,4 +20,11 @@ hr {
   border-top-style: dotted;
   border-width: 5px;
   width: 8%;
+}
+img{
+  border-radius: 90px;
+}
+th{
+  color: rgba(243, 150, 29, 0.664);
+  font-style:oblique;
 }
