@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  text-align:center;
+  font-family: "Curlz MT", Kristen ITC,serif;
+}
+h1 {
+  margin: 50px 0 auto auto ;
+  font-size: 5.625rem;
+  color: rgb(199, 113, 81);
+}
+h2{
+  font-family:Casper Light SF,serif ;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: Casper Light SF,serif;
+  font-size: 25px;
+}
+p{
+  font-family: vani , serif;
+  font-size: 20px;
+}
+
+.top-container {
+  background-color:#E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+}  
+.bottom-container {
+  
+}
+.mypic{
+  border-radius: 250px;
+background-color: azure;
+  
+}
+.mypic:hover {
+  background-color: aquamarine;
+}
+.bottom{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
