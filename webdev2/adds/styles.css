@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: serif;
+  background-color: #EAF6F6;
+  
+}
+.email{
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+.gutenberg{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  font-family: Casper Light SF, serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+p {
+  font-family: vani, serif;
+  font-size: 20px;
+}
+
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+.message{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}

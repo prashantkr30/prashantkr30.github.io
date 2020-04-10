@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Curlz MT", Kristen ITC, serif;
+  background-color: #eaf6f6;
+}
+h1 {
+  margin: 50px 0 auto auto;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 1; /*Personal taste, should be used without any unit. 1 is default can use 2 and so on.*/
+}
+h2 {
+  font-family: Casper Light SF, serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  font-family: Casper Light SF, serif;
+  font-size: 25px;
+  color: #11999e;
+}
+p {
+  font-family: vani, serif;
+  font-size: 20px;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.contact-me {
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*Fallbacks are necessary to decide which next element to choose for better functionality of web page.*/
+  font-weight: 50%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.mypic {
+  border-radius: 100px;
+  background-color: azure;
+  width: 18%;
+  margin-top: 20px;
+}
+.mypic:hover {
+  background-color: orange;
+}
+.bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+/*Below changing the image width to 25%. They would be then 25%(quarter) of the width of the skill row which itself is 50% the width of the entire page.*/
+.chilli {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.magic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 8%;
+}
+
+/* To understand the "clear" element add class in the paragraphs and can change the paragraph styling.
+.spiceclear{
+  clear: left;
+}
+.magiclear{
+  clear: right;
+
+}
+*/
